@@ -1,4 +1,4 @@
 {
     "env": { "PGPASSWORD":"password" },
-    "cmd": ["path-to-psql", "-h", "server-url", "-U", "user", "-d", "db-name", "-p", "5439", "-f", "$file", "-o", "results.txt"]
+    "cmd": ["path-to-psql", "-h", "server-url", "-U", "user", "-d", "db-name", "-p", "we-could-have-a-port-as-well ", "-f", "$file", "-o", "results.txt"]
 }
